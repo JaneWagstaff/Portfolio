@@ -3,3 +3,36 @@
     <head>
         <title>Contact Me</title>
     </head>
+    <header>
+        <h1>Get in touch!</h1>
+        <br>
+        <hr>
+        <h2>Please use the form below to contact me</h2>
+    </header>
+    <body>
+    <form>
+    <fieldset>
+            <legend>Personal Details</legend>
+        <label>
+            Name:
+            <input type="text" name="name">
+        </label>
+        <br>
+        <label>
+            Email:
+            <input type="email" name="email">
+        </label>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Reason for getting in touch</legend>
+            <input type="radio" name="reason" value="Query"> Query
+            <input type="radio" name="reason" value="Comment"> Comment
+            <input type="radio" name="reason" value="Other"> Other
+        <br>
+        <legend>Please give as much information as you can below</legend>
+        <textarea name="comments" cols="50" rows="10" placeholder="Comment here..."></textarea>
+    </fieldset>
+    </form>
+    </body>
+</html>
